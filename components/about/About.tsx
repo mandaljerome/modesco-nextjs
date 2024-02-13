@@ -2,6 +2,8 @@ import Image from "next/image";
 import Container from "../ui/Container";
 
 import homeFurni from "@/public/home-furni.jpg";
+import addsOn from "@/public/dblue-addson.svg";
+import addsOn2 from "@/public/addson2.svg";
 
 import { MdLocalShipping } from "react-icons/md";
 import { FaBagShopping } from "react-icons/fa6";
@@ -10,56 +12,81 @@ import { TbTruckReturn } from "react-icons/tb";
 
 const About = () => {
     return (
-        <Container>
-            <div>
-                <Image src={homeFurni} alt="home-furni" className="" />
+        <Container className="relative flex flex-col gap-y-14 md:flex-row md:gap-x-40">
+            <div className="relative md:max-w-[480px]">
+                <Image
+                    src={homeFurni}
+                    alt="home-furni"
+                    className="h-[600px] rounded-3xl object-cover object-center"
+                />
             </div>
-            <div>
+            <div className="relative mx-auto max-w-[500px] md:max-w-full">
                 <div>
-                    <h2>Why Choose Us</h2>
-                    <p>
+                    <h2 className="text-3xl">Why Choose Us</h2>
+                    <p className="mt-2 opacity-50">
                         Donec vitae odio quis nisl dapibus malesuada. Nullam ac
                         aliquet velit. Aliquam vulputate velit imperdiet dolor
                         tempor tristique.
                     </p>
                 </div>
-                <div>
+                <div className="mt-10 flex gap-6">
                     <div>
-                        <MdLocalShipping />
-                        <h3>Fast & Free Shipping</h3>
-                        <p>
+                        <MdLocalShipping
+                            size={32}
+                            className="h-[30px] text-main-darkblue"
+                        />
+                        <h3 className="mt-4 text-sm font-bold">
+                            Fast & Free Shipping
+                        </h3>
+                        <p className="mt-2 text-sm opacity-50">
                             Donec vitae odio quis nisl dapibus malesuada. Nullam
                             ac aliquet velit. Aliquam vulputate.
                         </p>
                     </div>
                     <div>
-                        <FaBagShopping />
-                        <h3>Easy to Shop</h3>
-                        <p>
+                        <FaBagShopping
+                            size={26}
+                            className="h-[30px] text-main-darkblue"
+                        />
+                        <h3 className="mt-4 text-sm font-bold">Easy to Shop</h3>
+                        <p className="mt-2 text-sm opacity-50">
                             Donec vitae odio quis nisl dapibus malesuada. Nullam
                             ac aliquet velit. Aliquam vulputate.
                         </p>
                     </div>
                 </div>
-                <div>
+                <div className="mt-6 flex gap-6">
                     <div>
-                        <MdSupport />
-                        <h3>24/7 Support</h3>
-                        <p>
+                        <MdSupport
+                            size={32}
+                            className="h-[30px] text-main-darkblue"
+                        />
+                        <h3 className="mt-4 text-sm font-bold">24/7 Support</h3>
+                        <p className="mt-2 text-sm opacity-50">
                             Donec vitae odio quis nisl dapibus malesuada. Nullam
                             ac aliquet velit. Aliquam vulputate.
                         </p>
                     </div>
                     <div>
-                        <TbTruckReturn />
-                        <h3>Hassle Free Returns</h3>
-                        <p>
+                        <TbTruckReturn
+                            size={32}
+                            className="h-[30px] text-main-darkblue"
+                        />
+                        <h3 className="mt-4 text-sm font-bold">
+                            Hassle Free Returns
+                        </h3>
+                        <p className="mt-2 text-sm opacity-50">
                             Donec vitae odio quis nisl dapibus malesuada. Nullam
                             ac aliquet velit. Aliquam vulputate.
                         </p>
                     </div>
                 </div>
             </div>
+            <Image
+                src={addsOn2}
+                alt=""
+                className="absolute -bottom-[300px] -right-52 -z-10 w-full max-w-[800px] opacity-30"
+            />
         </Container>
     );
 };
