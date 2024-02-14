@@ -12,7 +12,7 @@ import { TbTruckReturn } from "react-icons/tb";
 
 const About = () => {
     return (
-        <Container className="relative flex flex-col gap-y-14 md:flex-row md:gap-x-40">
+        <Container className="relative mt-28 flex flex-col gap-y-14 md:flex-row md:gap-x-40">
             <div className="relative md:max-w-[480px]">
                 <Image
                     src={homeFurni}
@@ -85,7 +85,7 @@ const About = () => {
             <Image
                 src={addsOn2}
                 alt=""
-                className="absolute -bottom-[300px] -right-52 -z-10 w-full max-w-[800px] opacity-30"
+                className="absolute -bottom-[300px] -right-52 -z-10 w-full max-w-[800px] opacity-20"
             />
         </Container>
     );

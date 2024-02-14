@@ -9,7 +9,7 @@ import FeatureProduct from "./FeatureProduct";
 
 const FeatureProducts = () => {
     return (
-        <Container className="my-28 flex flex-col gap-y-8 md:gap-x-4 lg:flex-row">
+        <Container className="mt-28 flex flex-col gap-y-8 md:gap-x-4 lg:flex-row">
             <div className="space-y-4 lg:max-w-[350px]">
                 <h1 className="text-3xl">Crafted with excellent material.</h1>
                 <p className="opacity-50">
