@@ -12,7 +12,7 @@ const Services = () => {
     return (
         <Container className="md:gap-30 relative mt-28 flex flex-col-reverse gap-20 md:flex-row">
             <div className="md:pt-24">
-                <h1 className="text-2xl">
+                <h1 className="text-3xl">
                     We Help You Make Modern Interior Design
                 </h1>
                 <p className="mt-2 text-sm opacity-50">
@@ -71,7 +71,7 @@ const Services = () => {
             <Image
                 src={addsOn}
                 alt=""
-                className="absolute -bottom-0 -left-20 -z-10 w-full max-w-[1000px] opacity-20 md:-bottom-[300px]"
+                className="absolute -bottom-0 -left-60 -z-10 w-full max-w-[1000px] opacity-20 md:-bottom-[300px]"
             />
         </Container>
     );
