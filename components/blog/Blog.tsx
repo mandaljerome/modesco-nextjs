@@ -33,7 +33,7 @@ const Blog = () => {
                             <Image
                                 src={blog.img}
                                 alt={blog.title}
-                                className="h-[300px] w-[400px] rounded-xl object-cover"
+                                className="h-[300px] rounded-xl object-cover sm:w-[400px]"
                             />
                             <div className="mt-4">
                                 <h3 className="text-2xl">{blog.title}</h3>
