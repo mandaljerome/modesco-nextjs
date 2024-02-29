@@ -20,6 +20,7 @@ const Testimonials = ({ data }: { data: Testimonial[] }) => {
     const [api, setApi] = React.useState<CarouselApi>();
     const [current, setCurrent] = React.useState(0);
     const [count, setCount] = React.useState(0);
+    const [testi, setTesti] = React.useState(data);
 
     const plugin = React.useRef(
         Autoplay({ delay: 5000, stopOnInteraction: true }),
@@ -36,7 +37,7 @@ const Testimonials = ({ data }: { data: Testimonial[] }) => {
         api.on("select", () => {
             setCurrent(api.selectedScrollSnap() + 1);
         });
-    }, [api]);
+    }, [api, data]);
 
     return (
         <Container>
