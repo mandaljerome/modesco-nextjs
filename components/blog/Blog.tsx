@@ -29,7 +29,7 @@ const Blog = () => {
                     );
 
                     return (
-                        <div className="mt-10 sm:mt-5">
+                        <div className="mt-10 sm:mt-5" key={blog.id}>
                             <Image
                                 src={blog.img}
                                 alt={blog.title}

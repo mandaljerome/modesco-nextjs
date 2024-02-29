@@ -12,12 +12,12 @@ import { TbTruckReturn } from "react-icons/tb";
 
 const About = () => {
     return (
-        <Container className="relative mt-28 flex flex-col gap-y-14 md:flex-row md:gap-x-40">
-            <div className="relative md:max-w-[480px]">
+        <Container className="relative mt-28 flex flex-col gap-y-14 md:gap-x-24 lg:flex-row">
+            <div className="relative lg:max-w-[480px]">
                 <Image
                     src={homeFurni}
                     alt="home-furni"
-                    className="h-[600px] rounded-3xl object-cover object-center"
+                    className="h-[500px] rounded-3xl object-cover object-center"
                 />
             </div>
             <div className="relative mx-auto max-w-[500px] md:max-w-full">

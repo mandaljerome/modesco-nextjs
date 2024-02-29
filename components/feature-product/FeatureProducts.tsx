@@ -19,7 +19,7 @@ const FeatureProducts = () => {
                 </p>
                 <Button size={"lg"}>Explore</Button>
             </div>
-            <div className="w-full gap-x-4 sm:flex">
+            <div className="w-full gap-x-4 md:flex">
                 {featureProducts.map((product) => {
                     return (
                         <FeatureProduct

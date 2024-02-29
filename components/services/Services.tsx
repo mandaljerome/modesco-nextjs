@@ -10,8 +10,8 @@ import { GiCheckMark } from "react-icons/gi";
 
 const Services = () => {
     return (
-        <Container className="md:gap-30 relative mt-28 flex flex-col-reverse gap-20 md:flex-row">
-            <div className="md:pt-24">
+        <Container className="md:gap-30 relative mt-28 flex flex-col-reverse gap-20 lg:md:flex-row">
+            <div className="lg:pt-24">
                 <h1 className="text-3xl">
                     We Help You Make Modern Interior Design
                 </h1>
@@ -53,7 +53,7 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-            <div className="grid max-w-[550px] grid-cols-12 grid-rows-12 gap-4">
+            <div className="grid grid-cols-12 grid-rows-12 gap-4 lg:max-w-[550px]">
                 <div className="col-span-8 col-start-1 row-start-1 row-end-13 overflow-hidden rounded-3xl">
                     <Image src={image1} alt="" />
                 </div>

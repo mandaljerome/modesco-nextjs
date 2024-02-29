@@ -7,26 +7,23 @@ import { FaPaperPlane, FaFacebookSquare, FaLinkedinIn } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 
 import bed from "@/public/bed-footer.png";
-import logo from "@/public/logo-black.svg";
+import logo from "@/public/logo-darkblue.svg";
 
 const Footer = () => {
     return (
         <div className="mt-14 overflow-hidden pt-40">
             <div className="bg-main-lightblue">
-                <Container className="relative py-14 md:py-8">
+                <Container className="relative flex flex-col gap-14 py-14 md:py-8">
                     <div className="absolute -right-[180px] -top-[150px] max-w-[500px]">
                         <Image src={bed} alt="" />
                     </div>
-                    <form
-                        action=""
-                        className="mt-8 space-y-6 md:mt-0 md:max-w-[800px]"
-                    >
+                    <form action="" className="mt-6 space-y-6 md:max-w-[800px]">
                         <div className="flex items-center gap-2">
                             <BsEnvelopeCheck
                                 size={23}
                                 className="text-main-darkblue"
                             />
-                            <h3 className="text-xl text-main-darkblue">
+                            <h3 className="text-2xl text-main-darkblue">
                                 Subscribe to Newsletter
                             </h3>
                         </div>
@@ -55,13 +52,13 @@ const Footer = () => {
                             </button>
                         </div>
                     </form>
-                    <div className="mt-10 md:flex md:justify-between">
+                    <Image
+                        src={logo}
+                        alt="logo"
+                        className="-mb-8 w-full max-w-[200px]"
+                    />
+                    <div className="md:flex md:justify-between">
                         <div className="space-y-6 md:max-w-[500px]">
-                            <Image
-                                src={logo}
-                                alt="logo"
-                                className="w-full max-w-[200px]"
-                            />
                             <p className="text-sm opacity-50">
                                 Donec facilisis quam ut purus rutrum lobortis.
                                 Donec vitae odio quis nisl dapibus malesuada.
@@ -136,12 +133,12 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="mt-14 flex flex-col gap-4 md:flex-row md:justify-between">
+                    <div className="flex flex-col gap-4 md:flex-row md:justify-between">
                         <p className="text-center text-sm opacity-50">
                             Copyright ©2024. All Rights Reserved. — Designed
                             with love by Jerome Mandal
                         </p>
-                        <div className="space-x-2 text-center text-sm opacity-50">
+                        <div className="space-x-4 text-center text-sm opacity-50">
                             <Link href="/">Terms & Condition</Link>
                             <Link href="/">Privacy Policy</Link>
                         </div>

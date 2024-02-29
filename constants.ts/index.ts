@@ -103,7 +103,7 @@ export const blogs: Blog[] = [
         img: blog2,
     },
     {
-        id: "1",
+        id: "3",
         author: "Jerome Mandal",
         title: "Super duper sale!",
         date: new Date("2024-02-01"),
