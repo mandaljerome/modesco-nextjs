@@ -1,4 +1,4 @@
-const PageNotFound = () => {
-  return <div>not-found</div>;
+const notfound = () => {
+    return <div>not-found in admin</div>;
 };
-export default PageNotFound;
+export default notfound;
