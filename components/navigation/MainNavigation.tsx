@@ -13,23 +13,23 @@ const links = [
     },
     {
         title: "Shop",
-        href: "/shop",
+        href: "#",
     },
     {
         title: "About",
-        href: "/about",
+        href: "#",
     },
     {
         title: "Services",
-        href: "/services",
+        href: "#",
     },
     {
         title: "Blog",
-        href: "/blog",
+        href: "#",
     },
     {
         title: "Contact us",
-        href: "/contact",
+        href: "#",
     },
 ];
 
