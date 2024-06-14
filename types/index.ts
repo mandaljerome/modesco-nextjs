@@ -29,7 +29,7 @@ export interface Testimonial {
     company?: string;
     date?: Date;
     testi: string;
-    img: StaticImageData;
+    img: string;
 }
 
 export interface Blog {
