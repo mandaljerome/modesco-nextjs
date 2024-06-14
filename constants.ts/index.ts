@@ -1,17 +1,10 @@
 import { Blog, FeatureProductsTypes, Products, Testimonial } from "@/types";
-
 import yellowChair from "@/public/yellow-chair.png";
 import furniStand from "@/public/furni-stand.png";
 import sideTable from "@/public/side-table.png";
-
 import grayChair from "@/public/gray-chair.png";
 import tray from "@/public/tray.png";
 import kitchenCabinet from "@/public/modern-kitchen-cabinet copy.png";
-
-import testi1 from "@/public/testi1.png";
-import testi2 from "@/public/testi2.png";
-import testi3 from "@/public/testi3.png";
-
 import blog1 from "@/public/first-time-blog.jpg";
 import blog2 from "@/public/minimalist-blog.jpg";
 import blog3 from "@/public/sale-blog.jpg";
@@ -58,30 +51,6 @@ export const newProducts: Products[] = [
         price: 20,
         img: kitchenCabinet,
         desc: "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio",
-    },
-];
-
-export const testimonials: Testimonial[] = [
-    {
-        id: "1",
-        name: "Cristina Amor",
-        company: "Exabytes Technologies",
-        testi: "Impeccable craftsmanship, stunning designs, and exceptional customer service. My experience with Modesco was truly delightful. Highly recommend for anyone looking for quality furniture with a touch of elegance and personalized attention.",
-        img: testi1,
-    },
-    {
-        id: "2",
-        name: "Steven Johnson",
-        company: "Exabytes Technologies",
-        testi: "Impeccable craftsmanship, stunning designs, and exceptional customer service. My experience with Modesco was truly delightful. Highly recommend for anyone looking for quality furniture with a touch of elegance and personalized attention.",
-        img: testi2,
-    },
-    {
-        id: "3",
-        name: "Angela Law",
-        company: "Exabytes Technologies",
-        testi: "Impeccable craftsmanship, stunning designs, and exceptional customer service. My experience with Modesco was truly delightful. Highly recommend for anyone looking for quality furniture with a touch of elegance and personalized attention.",
-        img: testi3,
     },
 ];
 
