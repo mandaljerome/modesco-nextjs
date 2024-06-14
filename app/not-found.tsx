@@ -1,4 +1,4 @@
 const notfound = () => {
-    return <div>not-found in admin</div>;
+    return <div>Not found.</div>;
 };
 export default notfound;

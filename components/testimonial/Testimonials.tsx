@@ -39,6 +39,8 @@ const Testimonials = ({ data }: { data: Testimonial[] }) => {
         });
     }, [api, data]);
 
+    console.log(data);
+
     return (
         <Container>
             <h2 className="mt-36 text-center text-3xl">Testimonials</h2>
